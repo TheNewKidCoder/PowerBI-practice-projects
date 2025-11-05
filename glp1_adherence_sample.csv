@@ -1,0 +1,451 @@
+PatientID,Age,Gender,Indication,Drug,StartDate,EndDate,DurationDays,Discontinued,DiscontinuationReason,MPR,PDC,ReinitiationCount,Provider,Region
+P1000,69,M,Obesity,Dulaglutide,2024-07-29,,464,False,,0.739,0.685,0,Dr. Garcia,Midwest
+P1001,32,F,Type 2 Diabetes,Semaglutide,2025-07-05,2026-07-18,378,True,Cost,0.616,0.567,2,Dr. Patel,South
+P1002,78,F,Type 2 Diabetes,Liraglutide,2025-04-17,2025-05-07,20,True,Cost,0.896,0.955,1,Dr. Allen,South
+P1003,38,F,Obesity,Liraglutide,2025-04-04,2025-09-30,179,True,Side effects,0.843,0.817,1,Dr. Garcia,South
+P1004,41,M,Type 2 Diabetes,Tirzepatide,2024-08-12,,450,False,,0.665,0.712,0,Dr. Patel,South
+P1005,20,F,Obesity,Semaglutide,2025-04-17,2025-09-25,161,True,Side effects,0.572,0.506,1,Dr. Wang,Northeast
+P1006,39,M,Type 2 Diabetes,Tirzepatide,2025-04-29,,190,False,,0.781,0.685,1,Dr. Patel,South
+P1007,70,M,Type 2 Diabetes,Semaglutide,2025-10-23,,13,False,,0.582,0.563,1,Dr. Lee,Northeast
+P1008,19,F,Type 2 Diabetes,Semaglutide,2025-06-12,,146,False,,0.612,0.574,0,Dr. Allen,Midwest
+P1009,47,F,Obesity,Semaglutide,2025-10-04,2025-10-26,22,True,Side effects,0.733,0.734,0,Dr. Wang,Midwest
+P1010,55,Other,Both,Semaglutide,2025-02-11,,267,False,,0.409,0.379,1,Dr. Lee,Northeast
+P1011,19,F,Obesity,Dulaglutide,2025-06-15,,143,False,,0.866,0.825,1,Dr. Garcia,Midwest
+P1012,81,F,Type 2 Diabetes,Dulaglutide,2025-03-22,2025-05-29,68,True,Access issues,0.785,0.819,0,Dr. Patel,West
+P1013,77,M,Obesity,Dulaglutide,2025-10-28,2026-05-10,194,True,Access issues,0.702,0.622,1,Dr. Lee,West
+P1014,38,M,Type 2 Diabetes,Semaglutide,2025-10-19,,17,False,,0.533,0.497,0,Dr. Wang,Midwest
+P1015,50,Other,Type 2 Diabetes,Semaglutide,2025-02-27,,251,False,,0.724,0.708,1,Dr. Allen,Northeast
+P1016,75,M,Both,Semaglutide,2025-10-22,2026-06-07,228,True,Lack of efficacy,0.652,0.657,0,Dr. Allen,Northeast
+P1017,39,F,Type 2 Diabetes,Liraglutide,2025-10-22,,14,False,,0.699,0.677,0,Dr. Brown,Midwest
+P1018,66,F,Type 2 Diabetes,Semaglutide,2025-11-03,,2,False,,0.637,0.671,0,Dr. Patel,West
+P1019,76,M,Type 2 Diabetes,Dulaglutide,2024-02-17,,627,False,,0.902,0.939,0,Dr. Lee,Northeast
+P1020,59,F,Type 2 Diabetes,Tirzepatide,2025-02-11,2025-08-20,190,True,Lack of efficacy,0.7,0.657,1,Dr. Brown,South
+P1021,77,F,Type 2 Diabetes,Semaglutide,2025-08-10,2026-04-12,245,True,Provider decision,0.341,0.355,1,Dr. Wang,Northeast
+P1022,32,M,Type 2 Diabetes,Dulaglutide,2025-08-27,2026-05-27,273,True,Side effects,0.779,0.808,1,Dr. Brown,West
+P1023,79,F,Type 2 Diabetes,Semaglutide,2025-08-11,2025-08-29,18,True,Cost,0.53,0.487,1,Dr. Singh,Midwest
+P1024,79,F,Both,Dulaglutide,2025-01-11,,298,False,,0.918,0.91,0,Dr. Garcia,South
+P1025,64,F,Obesity,Liraglutide,2025-04-03,,216,False,,0.71,0.619,0,Dr. Brown,Midwest
+P1026,79,F,Type 2 Diabetes,Semaglutide,2025-09-26,,40,False,,1.0,0.931,0,Dr. Garcia,South
+P1027,68,F,Type 2 Diabetes,Semaglutide,2025-09-28,,38,False,,0.813,0.833,1,Dr. Wang,Northeast
+P1028,72,F,Type 2 Diabetes,Tirzepatide,2025-10-16,,20,False,,0.675,0.629,0,Dr. Singh,Northeast
+P1029,81,F,Type 2 Diabetes,Liraglutide,2025-04-04,2025-11-06,216,True,Cost,0.663,0.573,0,Dr. Allen,West
+P1030,20,F,Type 2 Diabetes,Semaglutide,2025-01-20,2026-03-30,434,True,Access issues,0.698,0.753,0,Dr. Patel,West
+P1031,68,M,Obesity,Tirzepatide,2025-09-05,2026-05-03,240,True,Other,0.758,0.788,0,Dr. Johnson,West
+P1032,24,F,Type 2 Diabetes,Tirzepatide,2025-11-01,,4,False,,0.742,0.71,0,Dr. Johnson,South
+P1033,38,M,Type 2 Diabetes,Dulaglutide,2025-10-19,2026-08-24,309,True,Side effects,0.899,0.724,1,Dr. Patel,West
+P1034,56,F,Type 2 Diabetes,Semaglutide,2023-12-19,2024-05-16,149,True,Provider decision,0.691,0.68,1,Dr. Wang,Northeast
+P1035,35,F,Type 2 Diabetes,Dulaglutide,2025-08-27,,70,False,,0.88,0.816,0,Dr. Singh,Midwest
+P1036,21,M,Both,Liraglutide,2025-01-16,2026-01-02,351,True,Provider decision,0.552,0.442,0,Dr. Singh,Midwest
+P1037,77,F,Obesity,Semaglutide,2025-04-24,,195,False,,0.835,0.79,0,Dr. Garcia,South
+P1038,31,M,Type 2 Diabetes,Semaglutide,2025-08-01,,96,False,,0.9,0.859,0,Dr. Allen,Midwest
+P1039,26,F,Both,Liraglutide,2025-09-20,,46,False,,0.926,0.937,0,Dr. Lee,Northeast
+P1040,70,M,Type 2 Diabetes,Semaglutide,2025-10-11,,25,False,,0.716,0.751,0,Dr. Brown,South
+P1041,19,F,Both,Dulaglutide,2025-04-29,,190,False,,0.866,0.807,0,Dr. Singh,West
+P1042,77,M,Obesity,Semaglutide,2025-01-11,2025-12-27,350,True,Side effects,0.669,0.565,2,Dr. Patel,Midwest
+P1043,61,F,Type 2 Diabetes,Semaglutide,2025-04-13,2025-12-10,241,True,Cost,0.599,0.546,2,Dr. Lee,Northeast
+P1044,25,Other,Type 2 Diabetes,Dulaglutide,2025-06-07,2026-08-20,439,True,Lack of efficacy,0.436,0.436,0,Dr. Johnson,Northeast
+P1045,64,F,Type 2 Diabetes,Semaglutide,2025-10-28,2026-01-04,68,True,Other,0.704,0.642,0,Dr. Lee,Midwest
+P1046,52,F,Type 2 Diabetes,Tirzepatide,2023-12-15,,691,False,,0.756,0.739,0,Dr. Allen,Midwest
+P1047,53,M,Obesity,Semaglutide,2024-12-20,2025-01-10,21,True,Side effects,0.372,0.37,0,Dr. Patel,South
+P1048,67,F,Type 2 Diabetes,Tirzepatide,2025-08-28,,69,False,,0.934,0.885,0,Dr. Allen,South
+P1049,21,F,Type 2 Diabetes,Semaglutide,2023-09-15,,782,False,,0.875,0.853,1,Dr. Lee,South
+P1050,19,M,Obesity,Semaglutide,2025-05-05,,184,False,,0.801,0.814,0,Dr. Brown,Midwest
+P1051,23,F,Both,Liraglutide,2025-05-15,,174,False,,0.905,0.864,1,Dr. Wang,West
+P1052,71,F,Type 2 Diabetes,Semaglutide,2025-02-03,,275,False,,0.874,0.88,0,Dr. Singh,Midwest
+P1053,21,F,Type 2 Diabetes,Tirzepatide,2024-12-06,,334,False,,0.477,0.402,0,Dr. Patel,South
+P1054,71,M,Type 2 Diabetes,Semaglutide,2025-04-06,,213,False,,0.728,0.751,0,Dr. Wang,West
+P1055,80,F,Type 2 Diabetes,Dulaglutide,2025-10-09,2026-09-23,349,True,Access issues,0.704,0.704,1,Dr. Lee,Northeast
+P1056,35,F,Both,Semaglutide,2025-08-15,,82,False,,0.959,0.908,0,Dr. Singh,Northeast
+P1057,61,M,Type 2 Diabetes,Liraglutide,2024-05-28,,526,False,,0.903,0.951,0,Dr. Garcia,West
+P1058,51,M,Type 2 Diabetes,Semaglutide,2025-09-16,,50,False,,0.982,0.949,0,Dr. Wang,Midwest
+P1059,79,F,Type 2 Diabetes,Semaglutide,2025-08-04,2026-08-04,365,True,Cost,0.545,0.517,2,Dr. Wang,South
+P1060,31,F,Type 2 Diabetes,Semaglutide,2025-07-15,,113,False,,0.534,0.493,0,Dr. Lee,Northeast
+P1061,65,F,Obesity,Semaglutide,2025-07-13,,115,False,,0.646,0.693,2,Dr. Johnson,South
+P1062,32,F,Obesity,Tirzepatide,2025-04-30,,189,False,,0.572,0.496,2,Dr. Lee,Midwest
+P1063,79,F,Type 2 Diabetes,Semaglutide,2024-04-11,,573,False,,0.706,0.609,0,Dr. Wang,Northeast
+P1064,57,F,Type 2 Diabetes,Dulaglutide,2025-09-11,,55,False,,0.72,0.785,0,Dr. Singh,South
+P1065,70,F,Type 2 Diabetes,Semaglutide,2025-10-11,,25,False,,0.633,0.551,0,Dr. Brown,Midwest
+P1066,41,F,Both,Semaglutide,2025-09-23,,43,False,,0.777,0.784,1,Dr. Johnson,Midwest
+P1067,43,M,Both,Tirzepatide,2024-08-27,,435,False,,0.824,0.779,0,Dr. Lee,Northeast
+P1068,77,Other,Type 2 Diabetes,Dulaglutide,2025-04-12,,207,False,,0.968,0.875,0,Dr. Brown,Northeast
+P1069,58,M,Obesity,Semaglutide,2025-08-30,2025-11-04,66,True,Access issues,0.546,0.592,1,Dr. Patel,Midwest
+P1070,46,F,Obesity,Semaglutide,2024-12-02,,338,False,,0.738,0.705,0,Dr. Lee,Northeast
+P1071,32,F,Type 2 Diabetes,Semaglutide,2024-10-06,,395,False,,0.655,0.683,0,Dr. Wang,West
+P1072,62,M,Both,Dulaglutide,2024-10-27,,374,False,,0.852,0.834,0,Dr. Brown,Northeast
+P1073,82,M,Type 2 Diabetes,Tirzepatide,2024-06-21,2024-10-28,129,True,Lack of efficacy,0.605,0.623,1,Dr. Wang,South
+P1074,26,F,Type 2 Diabetes,Semaglutide,2025-09-08,,58,False,,0.765,0.792,1,Dr. Garcia,Northeast
+P1075,18,M,Type 2 Diabetes,Dulaglutide,2025-01-28,,281,False,,0.934,0.862,0,Dr. Brown,Midwest
+P1076,25,M,Type 2 Diabetes,Dulaglutide,2025-07-05,2025-07-26,21,True,Planned surgery,0.323,0.35,2,Dr. Brown,West
+P1077,80,M,Type 2 Diabetes,Tirzepatide,2024-11-01,,369,False,,0.576,0.588,0,Dr. Lee,Northeast
+P1078,28,M,Obesity,Dulaglutide,2025-02-18,,260,False,,0.787,0.84,1,Dr. Wang,West
+P1079,25,F,Type 2 Diabetes,Semaglutide,2025-01-10,,299,False,,0.662,0.692,0,Dr. Patel,Midwest
+P1080,52,F,Obesity,Semaglutide,2025-04-06,2025-08-25,141,True,Provider decision,0.631,0.608,1,Dr. Allen,South
+P1081,52,M,Type 2 Diabetes,Semaglutide,2025-09-27,,39,False,,0.692,0.663,0,Dr. Johnson,South
+P1082,50,M,Type 2 Diabetes,Semaglutide,2025-06-01,2026-05-18,351,True,Provider decision,0.518,0.512,2,Dr. Allen,West
+P1083,22,F,Type 2 Diabetes,Tirzepatide,2023-07-24,2024-03-19,239,True,Provider decision,0.851,0.764,0,Dr. Johnson,South
+P1084,58,F,Type 2 Diabetes,Liraglutide,2024-04-30,,554,False,,0.605,0.544,1,Dr. Patel,South
+P1085,45,F,Obesity,Semaglutide,2025-10-28,,8,False,,0.922,0.959,2,Dr. Brown,Northeast
+P1086,24,M,Type 2 Diabetes,Semaglutide,2025-09-30,,36,False,,0.923,0.826,0,Dr. Brown,Northeast
+P1087,29,Other,Type 2 Diabetes,Semaglutide,2025-10-08,,28,False,,0.632,0.657,0,Dr. Lee,West
+P1088,51,F,Type 2 Diabetes,Liraglutide,2025-02-20,,258,False,,0.953,0.919,0,Dr. Garcia,Midwest
+P1089,50,F,Obesity,Semaglutide,2024-11-30,2025-05-14,165,True,Side effects,0.683,0.646,0,Dr. Wang,Midwest
+P1090,65,F,Both,Tirzepatide,2025-09-18,2026-03-13,176,True,Access issues,0.659,0.705,2,Dr. Wang,South
+P1091,40,M,Obesity,Semaglutide,2025-06-18,2025-07-02,14,True,Side effects,0.757,0.679,0,Dr. Wang,Midwest
+P1092,79,M,Type 2 Diabetes,Semaglutide,2024-11-03,,367,False,,0.766,0.748,0,Dr. Lee,West
+P1093,54,M,Type 2 Diabetes,Liraglutide,2025-02-15,2025-07-09,144,True,Lack of efficacy,0.37,0.325,2,Dr. Johnson,South
+P1094,61,F,Type 2 Diabetes,Liraglutide,2025-06-02,2026-03-24,295,True,Lack of efficacy,0.686,0.669,1,Dr. Brown,South
+P1095,52,F,Type 2 Diabetes,Semaglutide,2025-05-11,2026-07-23,438,True,Lack of efficacy,0.769,0.765,2,Dr. Patel,West
+P1096,82,F,Type 2 Diabetes,Liraglutide,2025-06-16,,142,False,,0.885,0.916,0,Dr. Wang,Northeast
+P1097,64,F,Type 2 Diabetes,Tirzepatide,2025-08-27,2026-09-14,383,True,Lack of efficacy,0.596,0.585,1,Dr. Allen,Midwest
+P1098,20,M,Type 2 Diabetes,Dulaglutide,2025-05-23,,166,False,,0.834,0.832,0,Dr. Wang,South
+P1099,18,M,Type 2 Diabetes,Semaglutide,2025-03-17,,233,False,,0.78,0.719,0,Dr. Brown,Midwest
+P1100,22,Other,Obesity,Tirzepatide,2024-09-18,,413,False,,0.734,0.795,0,Dr. Lee,South
+P1101,31,Other,Type 2 Diabetes,Semaglutide,2025-04-17,2025-05-11,24,True,Other,0.862,0.773,1,Dr. Patel,West
+P1102,44,F,Type 2 Diabetes,Tirzepatide,2025-01-23,2026-03-04,405,True,Side effects,0.406,0.352,1,Dr. Garcia,Midwest
+P1103,26,M,Obesity,Semaglutide,2025-10-02,,34,False,,0.725,0.691,0,Dr. Patel,Midwest
+P1104,32,M,Type 2 Diabetes,Semaglutide,2025-07-05,,123,False,,0.844,0.836,0,Dr. Allen,West
+P1105,59,M,Obesity,Semaglutide,2025-11-04,,1,False,,0.682,0.697,0,Dr. Wang,Midwest
+P1106,68,F,Type 2 Diabetes,Dulaglutide,2025-09-10,,56,False,,0.663,0.684,0,Dr. Wang,South
+P1107,80,F,Type 2 Diabetes,Semaglutide,2025-02-19,,259,False,,0.79,0.806,0,Dr. Singh,Midwest
+P1108,69,F,Obesity,Tirzepatide,2023-03-21,,960,False,,0.902,0.808,0,Dr. Johnson,West
+P1109,21,M,Obesity,Liraglutide,2025-10-16,2026-10-06,355,True,Access issues,0.513,0.481,1,Dr. Allen,South
+P1110,40,F,Obesity,Semaglutide,2025-07-26,,102,False,,0.875,0.831,0,Dr. Singh,South
+P1111,32,F,Type 2 Diabetes,Tirzepatide,2024-12-19,,321,False,,0.811,0.754,0,Dr. Patel,West
+P1112,60,M,Type 2 Diabetes,Semaglutide,2025-09-21,,45,False,,0.872,0.914,0,Dr. Garcia,Midwest
+P1113,46,F,Type 2 Diabetes,Dulaglutide,2025-05-28,2026-05-17,354,True,Cost,0.73,0.666,1,Dr. Johnson,Midwest
+P1114,53,F,Type 2 Diabetes,Semaglutide,2025-02-14,2025-09-15,213,True,Side effects,0.486,0.464,2,Dr. Allen,West
+P1115,30,F,Both,Tirzepatide,2025-04-28,2025-11-01,187,True,Side effects,0.702,0.693,0,Dr. Wang,Midwest
+P1116,49,M,Type 2 Diabetes,Dulaglutide,2025-09-25,,41,False,,0.961,0.823,0,Dr. Patel,South
+P1117,76,F,Both,Liraglutide,2025-08-10,,87,False,,0.682,0.731,0,Dr. Allen,West
+P1118,45,M,Type 2 Diabetes,Tirzepatide,2025-01-03,,306,False,,0.846,0.789,0,Dr. Wang,South
+P1119,83,F,Type 2 Diabetes,Semaglutide,2025-05-28,2025-10-21,146,True,Provider decision,0.565,0.473,2,Dr. Brown,South
+P1120,59,M,Type 2 Diabetes,Tirzepatide,2025-11-04,2025-12-16,42,True,Provider decision,0.399,0.345,1,Dr. Johnson,West
+P1121,62,F,Both,Dulaglutide,2025-01-23,2025-05-16,113,True,Provider decision,0.509,0.403,1,Dr. Brown,West
+P1122,79,F,Obesity,Tirzepatide,2025-10-29,2026-02-27,121,True,Other,0.899,0.917,0,Dr. Brown,Midwest
+P1123,74,M,Obesity,Semaglutide,2025-02-05,2025-09-18,225,True,Side effects,0.518,0.455,0,Dr. Wang,Northeast
+P1124,23,F,Obesity,Liraglutide,2025-09-21,,45,False,,0.742,0.724,0,Dr. Garcia,Midwest
+P1125,45,F,Obesity,Tirzepatide,2024-02-10,2025-01-14,339,True,Cost,0.604,0.68,0,Dr. Patel,South
+P1126,45,F,Obesity,Tirzepatide,2025-08-06,,91,False,,0.798,0.812,0,Dr. Lee,South
+P1127,61,M,Type 2 Diabetes,Semaglutide,2025-08-18,,79,False,,0.726,0.634,0,Dr. Wang,South
+P1128,47,F,Type 2 Diabetes,Tirzepatide,2025-10-04,,32,False,,0.612,0.551,0,Dr. Garcia,Midwest
+P1129,79,M,Type 2 Diabetes,Semaglutide,2025-08-25,,72,False,,0.758,0.752,0,Dr. Lee,South
+P1130,79,F,Both,Tirzepatide,2024-09-13,,418,False,,0.919,0.882,0,Dr. Patel,Northeast
+P1131,18,F,Both,Semaglutide,2022-10-11,,1121,False,,0.886,0.817,0,Dr. Brown,South
+P1132,44,F,Type 2 Diabetes,Tirzepatide,2025-08-06,,91,False,,0.75,0.761,2,Dr. Johnson,South
+P1133,79,F,Obesity,Liraglutide,2025-07-09,,119,False,,0.637,0.658,0,Dr. Johnson,Midwest
+P1134,20,F,Both,Semaglutide,2025-02-22,,256,False,,1.0,0.918,1,Dr. Patel,Midwest
+P1135,44,F,Type 2 Diabetes,Liraglutide,2024-08-28,,434,False,,0.597,0.643,0,Dr. Patel,South
+P1136,26,F,Type 2 Diabetes,Semaglutide,2025-05-10,,179,False,,0.872,0.825,0,Dr. Allen,South
+P1137,79,M,Both,Dulaglutide,2025-07-29,,99,False,,0.882,0.875,0,Dr. Garcia,Midwest
+P1138,54,F,Type 2 Diabetes,Dulaglutide,2025-07-22,2026-02-27,220,True,Access issues,0.581,0.545,0,Dr. Brown,West
+P1139,68,F,Obesity,Tirzepatide,2025-03-13,2025-04-21,39,True,Lack of efficacy,0.613,0.704,0,Dr. Garcia,South
+P1140,61,M,Type 2 Diabetes,Dulaglutide,2025-11-05,2027-01-10,431,True,Lack of efficacy,0.566,0.588,1,Dr. Patel,West
+P1141,41,F,Both,Dulaglutide,2025-04-26,2026-06-25,425,True,Cost,0.626,0.457,1,Dr. Singh,Midwest
+P1142,76,F,Both,Semaglutide,2025-08-10,,87,False,,0.855,0.851,1,Dr. Singh,South
+P1143,49,M,Both,Semaglutide,2024-12-24,2025-12-15,356,True,Planned surgery,0.738,0.694,1,Dr. Lee,West
+P1144,69,M,Type 2 Diabetes,Tirzepatide,2025-10-17,,19,False,,0.863,0.813,0,Dr. Lee,South
+P1145,79,F,Both,Dulaglutide,2025-05-12,,177,False,,1.0,1.0,0,Dr. Singh,South
+P1146,75,M,Obesity,Dulaglutide,2025-06-27,2026-09-16,446,True,Planned surgery,0.671,0.697,0,Dr. Patel,Midwest
+P1147,69,F,Type 2 Diabetes,Dulaglutide,2025-04-14,,205,False,,0.883,0.909,0,Dr. Patel,Midwest
+P1148,29,F,Obesity,Semaglutide,2025-10-23,2026-07-01,251,True,Side effects,0.537,0.532,1,Dr. Lee,Northeast
+P1149,56,F,Type 2 Diabetes,Dulaglutide,2025-05-16,2026-07-23,433,True,Lack of efficacy,0.746,0.68,2,Dr. Wang,Midwest
+P1150,19,Other,Type 2 Diabetes,Semaglutide,2025-05-25,2025-07-10,46,True,Planned surgery,0.413,0.39,1,Dr. Patel,Northeast
+P1151,20,F,Type 2 Diabetes,Tirzepatide,2025-05-25,2025-11-14,173,True,Planned surgery,0.494,0.536,1,Dr. Singh,Northeast
+P1152,73,F,Type 2 Diabetes,Semaglutide,2025-05-04,,185,False,,0.767,0.763,0,Dr. Garcia,West
+P1153,76,F,Type 2 Diabetes,Semaglutide,2025-03-25,,225,False,,1.0,0.958,1,Dr. Patel,Midwest
+P1154,19,F,Obesity,Semaglutide,2024-12-14,,326,False,,0.593,0.602,0,Dr. Brown,South
+P1155,19,F,Type 2 Diabetes,Semaglutide,2025-09-04,,62,False,,0.953,0.829,0,Dr. Patel,West
+P1156,71,F,Obesity,Tirzepatide,2024-11-22,2025-03-14,112,True,Side effects,0.362,0.436,0,Dr. Wang,South
+P1157,18,F,Type 2 Diabetes,Semaglutide,2025-06-21,2025-09-28,99,True,Access issues,0.881,0.841,0,Dr. Lee,Northeast
+P1158,36,F,Type 2 Diabetes,Semaglutide,2025-10-20,2026-01-03,75,True,Side effects,0.47,0.423,1,Dr. Patel,South
+P1159,19,F,Type 2 Diabetes,Semaglutide,2025-10-24,,12,False,,0.405,0.384,0,Dr. Johnson,South
+P1160,70,F,Obesity,Semaglutide,2025-08-16,,81,False,,0.849,0.783,0,Dr. Allen,South
+P1161,61,F,Type 2 Diabetes,Semaglutide,2025-01-02,,307,False,,0.648,0.624,0,Dr. Singh,South
+P1162,49,F,Obesity,Semaglutide,2025-03-05,,245,False,,0.661,0.628,0,Dr. Brown,West
+P1163,49,M,Both,Tirzepatide,2024-12-30,2025-10-11,285,True,Cost,0.466,0.466,1,Dr. Brown,South
+P1164,72,F,Obesity,Tirzepatide,2025-06-13,,145,False,,0.651,0.598,0,Dr. Brown,Midwest
+P1165,73,M,Type 2 Diabetes,Tirzepatide,2025-07-12,,116,False,,0.929,0.92,0,Dr. Johnson,South
+P1166,34,F,Type 2 Diabetes,Semaglutide,2025-10-05,,31,False,,0.806,0.858,0,Dr. Brown,Northeast
+P1167,55,F,Both,Semaglutide,2025-08-18,2026-08-07,354,True,Access issues,0.555,0.538,0,Dr. Brown,West
+P1168,41,F,Type 2 Diabetes,Dulaglutide,2025-07-15,2026-04-07,266,True,Planned surgery,0.993,1.0,0,Dr. Lee,Northeast
+P1169,28,F,Both,Tirzepatide,2025-10-18,,18,False,,1.0,0.93,1,Dr. Garcia,Midwest
+P1170,33,F,Type 2 Diabetes,Semaglutide,2025-09-17,,49,False,,0.842,0.734,1,Dr. Allen,West
+P1171,76,F,Both,Semaglutide,2025-05-07,,182,False,,0.856,0.816,0,Dr. Johnson,South
+P1172,20,F,Obesity,Semaglutide,2025-02-12,,266,False,,0.792,0.711,0,Dr. Allen,Midwest
+P1173,37,F,Both,Semaglutide,2022-05-04,2022-07-21,78,True,Cost,0.764,0.776,1,Dr. Singh,South
+P1174,76,F,Type 2 Diabetes,Semaglutide,2024-05-14,2025-05-16,367,True,Access issues,0.402,0.392,1,Dr. Lee,West
+P1175,53,F,Obesity,Tirzepatide,2025-04-14,,205,False,,0.68,0.663,0,Dr. Patel,Midwest
+P1176,36,F,Type 2 Diabetes,Tirzepatide,2025-07-19,,109,False,,0.986,0.988,0,Dr. Garcia,West
+P1177,84,F,Type 2 Diabetes,Tirzepatide,2025-04-17,2026-02-02,291,True,Planned surgery,0.594,0.571,0,Dr. Lee,Northeast
+P1178,36,M,Obesity,Dulaglutide,2025-01-01,,308,False,,0.927,1.0,0,Dr. Allen,South
+P1179,37,F,Both,Dulaglutide,2025-10-11,2026-04-12,183,True,Access issues,0.509,0.478,1,Dr. Johnson,West
+P1180,69,M,Both,Dulaglutide,2025-07-23,,105,False,,0.98,0.985,0,Dr. Singh,Northeast
+P1181,50,F,Obesity,Liraglutide,2024-11-04,,366,False,,0.519,0.468,0,Dr. Singh,Midwest
+P1182,57,F,Type 2 Diabetes,Semaglutide,2025-08-01,,96,False,,0.705,0.744,0,Dr. Lee,Northeast
+P1183,56,M,Type 2 Diabetes,Semaglutide,2025-05-20,,169,False,,0.706,0.696,1,Dr. Patel,South
+P1184,18,M,Obesity,Semaglutide,2025-05-12,2026-03-15,307,True,Access issues,0.509,0.6,2,Dr. Johnson,South
+P1185,28,F,Type 2 Diabetes,Tirzepatide,2025-09-26,,40,False,,0.935,0.851,0,Dr. Patel,South
+P1186,74,F,Type 2 Diabetes,Dulaglutide,2025-08-08,,89,False,,0.898,0.935,0,Dr. Patel,Northeast
+P1187,67,M,Type 2 Diabetes,Semaglutide,2025-08-16,,81,False,,0.77,0.75,0,Dr. Brown,Midwest
+P1188,40,M,Type 2 Diabetes,Liraglutide,2025-10-31,,5,False,,0.89,0.836,0,Dr. Johnson,Northeast
+P1189,48,F,Type 2 Diabetes,Semaglutide,2025-11-01,,4,False,,0.69,0.666,0,Dr. Allen,Midwest
+P1190,59,F,Type 2 Diabetes,Liraglutide,2024-11-14,,356,False,,0.869,0.776,0,Dr. Lee,South
+P1191,24,F,Type 2 Diabetes,Semaglutide,2025-09-03,2026-01-08,127,True,Pregnancy/planning,0.706,0.646,1,Dr. Lee,West
+P1192,33,F,Type 2 Diabetes,Semaglutide,2025-06-13,,145,False,,0.813,0.722,0,Dr. Brown,South
+P1193,77,F,Both,Semaglutide,2025-08-27,,70,False,,0.861,0.885,0,Dr. Wang,Midwest
+P1194,19,F,Type 2 Diabetes,Semaglutide,2024-04-20,2024-10-01,164,True,Lack of efficacy,0.811,0.756,1,Dr. Lee,West
+P1195,18,F,Type 2 Diabetes,Semaglutide,2025-09-06,,60,False,,0.734,0.738,0,Dr. Singh,South
+P1196,65,M,Obesity,Semaglutide,2025-07-16,2026-09-03,414,True,Side effects,0.644,0.601,0,Dr. Allen,West
+P1197,29,F,Type 2 Diabetes,Dulaglutide,2024-09-19,,412,False,,0.83,0.794,2,Dr. Johnson,South
+P1198,54,F,Both,Tirzepatide,2024-11-02,2025-03-22,140,True,Cost,0.855,0.781,1,Dr. Lee,Midwest
+P1199,49,M,Obesity,Semaglutide,2025-09-25,2026-05-01,218,True,Lack of efficacy,0.629,0.562,1,Dr. Allen,Northeast
+P1200,26,M,Type 2 Diabetes,Tirzepatide,2024-12-16,2026-01-22,402,True,Planned surgery,0.445,0.405,2,Dr. Brown,South
+P1201,36,F,Type 2 Diabetes,Dulaglutide,2025-07-06,2026-05-24,322,True,Lack of efficacy,0.871,0.862,2,Dr. Lee,Northeast
+P1202,65,F,Both,Semaglutide,2025-06-27,,131,False,,0.673,0.685,0,Dr. Johnson,Midwest
+P1203,20,F,Both,Semaglutide,2025-10-08,2025-11-18,41,True,Cost,0.437,0.456,2,Dr. Garcia,South
+P1204,37,F,Type 2 Diabetes,Semaglutide,2025-10-20,,16,False,,0.744,0.795,0,Dr. Johnson,South
+P1205,41,F,Obesity,Semaglutide,2025-02-18,,260,False,,0.802,0.737,0,Dr. Johnson,South
+P1206,71,F,Type 2 Diabetes,Tirzepatide,2025-06-21,,137,False,,0.664,0.568,0,Dr. Johnson,Northeast
+P1207,50,F,Both,Semaglutide,2025-07-14,,114,False,,0.877,0.805,0,Dr. Lee,Midwest
+P1208,41,F,Type 2 Diabetes,Tirzepatide,2025-02-17,,261,False,,0.701,0.639,0,Dr. Wang,South
+P1209,53,F,Both,Dulaglutide,2025-01-19,,290,False,,0.636,0.572,0,Dr. Johnson,West
+P1210,55,F,Obesity,Semaglutide,2025-10-02,,34,False,,0.826,0.778,0,Dr. Brown,South
+P1211,42,F,Obesity,Tirzepatide,2025-05-01,2025-07-18,78,True,Side effects,0.424,0.448,1,Dr. Singh,West
+P1212,35,F,Type 2 Diabetes,Semaglutide,2025-10-07,2025-10-24,17,True,Lack of efficacy,0.69,0.717,0,Dr. Singh,South
+P1213,83,F,Type 2 Diabetes,Liraglutide,2025-01-31,,278,False,,0.869,0.918,0,Dr. Brown,South
+P1214,71,M,Type 2 Diabetes,Semaglutide,2025-04-06,,213,False,,0.927,0.969,0,Dr. Allen,Northeast
+P1215,52,F,Type 2 Diabetes,Dulaglutide,2024-02-17,,627,False,,0.883,0.832,0,Dr. Wang,South
+P1216,78,M,Type 2 Diabetes,Tirzepatide,2025-10-22,,14,False,,0.695,0.646,0,Dr. Allen,South
+P1217,58,M,Obesity,Semaglutide,2025-10-25,,11,False,,0.839,0.846,1,Dr. Brown,South
+P1218,50,F,Type 2 Diabetes,Tirzepatide,2025-08-31,,66,False,,0.649,0.727,0,Dr. Singh,South
+P1219,50,F,Type 2 Diabetes,Liraglutide,2025-09-06,,60,False,,0.852,0.911,0,Dr. Patel,South
+P1220,31,F,Both,Tirzepatide,2025-09-10,2026-06-26,289,True,Cost,0.614,0.607,1,Dr. Singh,Midwest
+P1221,38,F,Both,Dulaglutide,2024-07-20,,473,False,,0.902,0.897,0,Dr. Garcia,South
+P1222,65,M,Both,Dulaglutide,2025-09-09,,57,False,,0.751,0.694,0,Dr. Johnson,Northeast
+P1223,37,F,Both,Semaglutide,2025-09-03,,63,False,,0.85,0.814,0,Dr. Patel,West
+P1224,25,F,Type 2 Diabetes,Semaglutide,2025-01-25,,284,False,,0.87,0.927,0,Dr. Singh,Northeast
+P1225,24,F,Type 2 Diabetes,Tirzepatide,2025-07-09,,119,False,,0.914,0.863,0,Dr. Lee,Northeast
+P1226,84,F,Obesity,Semaglutide,2025-01-10,2025-08-07,209,True,Access issues,0.447,0.44,2,Dr. Lee,Midwest
+P1227,34,F,Obesity,Dulaglutide,2025-10-23,,13,False,,0.794,0.781,0,Dr. Allen,South
+P1228,50,F,Type 2 Diabetes,Liraglutide,2025-06-25,,133,False,,0.85,0.759,0,Dr. Patel,Midwest
+P1229,65,F,Obesity,Semaglutide,2025-10-30,2026-01-10,72,True,Side effects,0.762,0.808,2,Dr. Allen,Midwest
+P1230,76,Other,Type 2 Diabetes,Semaglutide,2025-10-24,2026-12-29,431,True,Planned surgery,0.693,0.607,0,Dr. Johnson,South
+P1231,39,F,Type 2 Diabetes,Dulaglutide,2024-07-20,2025-03-21,244,True,Provider decision,0.658,0.583,1,Dr. Johnson,Midwest
+P1232,47,F,Type 2 Diabetes,Semaglutide,2025-10-07,,29,False,,1.0,0.929,0,Dr. Garcia,West
+P1233,55,F,Type 2 Diabetes,Dulaglutide,2025-06-06,2025-10-03,119,True,Side effects,0.637,0.565,1,Dr. Brown,West
+P1234,68,F,Type 2 Diabetes,Semaglutide,2025-07-23,,105,False,,0.822,0.801,0,Dr. Brown,South
+P1235,71,F,Type 2 Diabetes,Tirzepatide,2025-08-12,,85,False,,0.747,0.649,0,Dr. Wang,Midwest
+P1236,25,F,Both,Semaglutide,2024-08-02,,460,False,,0.677,0.581,0,Dr. Allen,South
+P1237,44,F,Type 2 Diabetes,Tirzepatide,2025-11-01,,4,False,,0.875,0.925,0,Dr. Johnson,Northeast
+P1238,44,F,Type 2 Diabetes,Semaglutide,2025-04-01,,218,False,,0.855,0.94,0,Dr. Brown,South
+P1239,38,F,Both,Tirzepatide,2024-01-14,,661,False,,0.894,0.83,0,Dr. Allen,Midwest
+P1240,47,M,Both,Semaglutide,2025-05-25,2026-01-12,232,True,Lack of efficacy,0.511,0.485,1,Dr. Johnson,West
+P1241,45,F,Both,Dulaglutide,2024-05-02,2025-03-08,310,True,Side effects,0.893,0.898,2,Dr. Singh,Northeast
+P1242,81,F,Obesity,Dulaglutide,2025-10-26,2025-12-12,47,True,Pregnancy/planning,0.441,0.347,0,Dr. Allen,South
+P1243,78,F,Obesity,Semaglutide,2025-07-20,,108,False,,1.0,0.98,0,Dr. Singh,South
+P1244,65,Other,Type 2 Diabetes,Semaglutide,2025-09-06,2026-01-17,133,True,Planned surgery,0.752,0.665,1,Dr. Allen,South
+P1245,36,F,Type 2 Diabetes,Semaglutide,2025-02-16,,262,False,,0.689,0.693,0,Dr. Wang,Northeast
+P1246,21,F,Type 2 Diabetes,Tirzepatide,2023-09-02,2024-09-01,365,True,Lack of efficacy,0.785,0.68,1,Dr. Garcia,West
+P1247,52,M,Type 2 Diabetes,Tirzepatide,2025-09-07,,59,False,,0.884,0.908,0,Dr. Lee,South
+P1248,81,M,Type 2 Diabetes,Tirzepatide,2025-04-07,2025-11-07,214,True,Lack of efficacy,0.898,0.905,2,Dr. Brown,South
+P1249,66,M,Obesity,Semaglutide,2025-09-22,,44,False,,0.75,0.713,1,Dr. Lee,Midwest
+P1250,34,F,Type 2 Diabetes,Semaglutide,2025-05-23,2026-01-30,252,True,Provider decision,0.833,0.77,1,Dr. Lee,South
+P1251,61,F,Type 2 Diabetes,Tirzepatide,2025-07-04,2026-01-22,202,True,Side effects,0.662,0.619,1,Dr. Singh,Midwest
+P1252,47,M,Type 2 Diabetes,Semaglutide,2023-11-21,,715,False,,0.807,0.759,0,Dr. Patel,Northeast
+P1253,63,M,Obesity,Liraglutide,2025-05-02,,187,False,,0.421,0.415,0,Dr. Johnson,Northeast
+P1254,23,F,Type 2 Diabetes,Semaglutide,2025-08-11,2025-09-13,33,True,Side effects,0.636,0.674,1,Dr. Lee,West
+P1255,54,F,Both,Tirzepatide,2025-10-12,,24,False,,0.858,0.848,0,Dr. Wang,Midwest
+P1256,41,F,Type 2 Diabetes,Semaglutide,2025-10-04,2025-12-29,86,True,Provider decision,0.863,0.765,1,Dr. Lee,Northeast
+P1257,63,M,Type 2 Diabetes,Semaglutide,2025-09-15,,51,False,,0.73,0.718,0,Dr. Allen,South
+P1258,70,F,Type 2 Diabetes,Dulaglutide,2025-09-09,,57,False,,0.789,0.791,0,Dr. Singh,South
+P1259,77,F,Obesity,Tirzepatide,2024-10-21,,380,False,,0.829,0.847,1,Dr. Patel,Northeast
+P1260,80,F,Type 2 Diabetes,Liraglutide,2025-05-25,,164,False,,0.63,0.579,0,Dr. Allen,South
+P1261,49,F,Obesity,Semaglutide,2025-06-10,2026-01-04,208,True,Planned surgery,0.694,0.715,1,Dr. Patel,Northeast
+P1262,50,F,Type 2 Diabetes,Semaglutide,2025-10-12,,24,False,,0.934,0.946,0,Dr. Allen,Northeast
+P1263,84,F,Type 2 Diabetes,Dulaglutide,2024-10-08,,393,False,,0.838,0.777,0,Dr. Allen,Northeast
+P1264,35,F,Both,Tirzepatide,2025-02-22,,256,False,,0.795,0.752,0,Dr. Brown,West
+P1265,42,F,Obesity,Semaglutide,2025-10-22,,14,False,,0.723,0.712,0,Dr. Garcia,Northeast
+P1266,71,F,Obesity,Semaglutide,2025-03-04,2025-06-17,105,True,Provider decision,0.569,0.586,1,Dr. Garcia,Northeast
+P1267,75,F,Both,Semaglutide,2025-06-02,2025-07-07,35,True,Planned surgery,0.573,0.631,1,Dr. Johnson,Midwest
+P1268,84,F,Both,Dulaglutide,2025-10-19,,17,False,,0.726,0.721,0,Dr. Singh,West
+P1269,63,F,Obesity,Semaglutide,2025-07-06,2026-07-22,381,True,Provider decision,0.562,0.554,1,Dr. Wang,Midwest
+P1270,41,F,Obesity,Semaglutide,2025-06-26,2026-09-10,441,True,Lack of efficacy,0.591,0.547,1,Dr. Wang,Midwest
+P1271,49,F,Obesity,Semaglutide,2025-09-30,,36,False,,0.931,0.944,1,Dr. Wang,Northeast
+P1272,64,F,Obesity,Semaglutide,2024-04-02,2025-03-27,359,True,Access issues,0.42,0.452,0,Dr. Brown,Midwest
+P1273,40,F,Obesity,Semaglutide,2024-10-22,,379,False,,0.727,0.725,0,Dr. Allen,South
+P1274,83,Other,Obesity,Tirzepatide,2025-03-29,,221,False,,0.685,0.729,0,Dr. Garcia,South
+P1275,44,F,Type 2 Diabetes,Semaglutide,2025-07-04,2026-07-25,386,True,Provider decision,0.532,0.503,2,Dr. Singh,Midwest
+P1276,19,M,Both,Dulaglutide,2025-07-22,,106,False,,0.889,0.897,0,Dr. Allen,Midwest
+P1277,34,F,Both,Semaglutide,2025-04-09,2025-08-06,119,True,Planned surgery,0.538,0.564,0,Dr. Patel,Northeast
+P1278,50,M,Type 2 Diabetes,Tirzepatide,2025-06-01,2026-08-07,432,True,Side effects,0.595,0.618,1,Dr. Garcia,Midwest
+P1279,26,M,Obesity,Dulaglutide,2025-10-24,,12,False,,0.886,0.955,0,Dr. Garcia,Northeast
+P1280,60,F,Type 2 Diabetes,Tirzepatide,2025-06-15,2025-09-22,99,True,Cost,0.546,0.511,0,Dr. Lee,South
+P1281,65,F,Type 2 Diabetes,Tirzepatide,2024-12-12,,328,False,,0.828,0.673,0,Dr. Lee,West
+P1282,56,F,Obesity,Semaglutide,2025-07-06,,122,False,,0.852,0.883,2,Dr. Brown,West
+P1283,59,F,Type 2 Diabetes,Semaglutide,2025-10-26,2026-12-28,428,True,Side effects,0.586,0.654,1,Dr. Singh,West
+P1284,43,M,Obesity,Tirzepatide,2025-01-01,2026-03-24,447,True,Side effects,0.588,0.61,1,Dr. Patel,South
+P1285,67,M,Obesity,Liraglutide,2025-09-22,,44,False,,0.937,0.945,0,Dr. Singh,South
+P1286,42,M,Type 2 Diabetes,Tirzepatide,2025-09-07,,59,False,,0.782,0.794,0,Dr. Singh,Midwest
+P1287,41,F,Type 2 Diabetes,Tirzepatide,2025-10-01,2026-08-21,324,True,Cost,0.861,0.857,2,Dr. Brown,South
+P1288,30,M,Type 2 Diabetes,Dulaglutide,2025-08-17,2026-11-01,441,True,Planned surgery,0.875,0.814,1,Dr. Brown,South
+P1289,77,M,Obesity,Semaglutide,2025-01-27,2025-10-16,262,True,Planned surgery,0.672,0.634,1,Dr. Allen,South
+P1290,24,F,Both,Semaglutide,2025-06-12,,146,False,,0.859,0.935,0,Dr. Johnson,South
+P1291,74,F,Obesity,Tirzepatide,2025-09-21,,45,False,,0.758,0.696,0,Dr. Brown,Midwest
+P1292,53,M,Type 2 Diabetes,Liraglutide,2024-09-11,,420,False,,0.793,0.843,0,Dr. Singh,Midwest
+P1293,62,F,Obesity,Semaglutide,2024-09-08,2025-01-13,127,True,Lack of efficacy,0.592,0.487,0,Dr. Lee,West
+P1294,37,M,Type 2 Diabetes,Tirzepatide,2024-09-23,,408,False,,0.987,0.97,1,Dr. Johnson,Northeast
+P1295,82,F,Obesity,Semaglutide,2025-09-12,,54,False,,0.943,0.941,1,Dr. Allen,South
+P1296,25,M,Type 2 Diabetes,Tirzepatide,2025-07-08,2026-01-28,204,True,Pregnancy/planning,0.344,0.371,1,Dr. Johnson,West
+P1297,33,F,Obesity,Semaglutide,2023-07-20,,839,False,,1.0,0.994,2,Dr. Wang,South
+P1298,31,F,Type 2 Diabetes,Semaglutide,2025-01-14,2025-10-13,272,True,Side effects,0.563,0.558,0,Dr. Patel,South
+P1299,32,F,Both,Dulaglutide,2025-10-31,2025-12-15,45,True,Side effects,0.886,0.784,1,Dr. Johnson,Midwest
+P1300,83,M,Type 2 Diabetes,Semaglutide,2025-10-23,2026-08-04,285,True,Side effects,0.933,0.921,1,Dr. Singh,Midwest
+P1301,49,M,Obesity,Tirzepatide,2025-07-04,,124,False,,0.844,0.9,0,Dr. Allen,West
+P1302,80,F,Both,Dulaglutide,2024-07-14,,479,False,,1.0,1.0,0,Dr. Patel,South
+P1303,68,F,Type 2 Diabetes,Liraglutide,2025-06-04,2026-08-19,441,True,Lack of efficacy,0.633,0.667,1,Dr. Singh,South
+P1304,42,M,Both,Semaglutide,2025-06-21,2025-09-25,96,True,Side effects,0.512,0.534,0,Dr. Patel,Northeast
+P1305,75,F,Obesity,Semaglutide,2025-10-14,2026-10-08,359,True,Cost,0.509,0.516,1,Dr. Lee,Northeast
+P1306,80,M,Type 2 Diabetes,Semaglutide,2025-04-06,,213,False,,0.718,0.656,0,Dr. Wang,West
+P1307,79,F,Type 2 Diabetes,Liraglutide,2024-11-25,2026-01-08,409,True,Lack of efficacy,0.434,0.403,1,Dr. Lee,Midwest
+P1308,39,F,Obesity,Liraglutide,2025-08-02,2026-10-01,425,True,Provider decision,0.783,0.788,0,Dr. Singh,South
+P1309,75,F,Type 2 Diabetes,Tirzepatide,2025-01-11,2026-03-19,432,True,Side effects,0.492,0.484,0,Dr. Singh,Northeast
+P1310,75,F,Type 2 Diabetes,Dulaglutide,2024-01-08,2024-09-05,241,True,Pregnancy/planning,0.777,0.747,1,Dr. Singh,South
+P1311,66,M,Type 2 Diabetes,Tirzepatide,2025-09-21,2026-12-05,440,True,Access issues,0.52,0.476,1,Dr. Garcia,West
+P1312,69,F,Obesity,Tirzepatide,2025-06-10,2026-05-20,344,True,Access issues,0.435,0.381,2,Dr. Wang,South
+P1313,59,F,Type 2 Diabetes,Semaglutide,2025-08-30,,67,False,,0.861,0.857,0,Dr. Patel,Northeast
+P1314,32,M,Both,Dulaglutide,2024-12-26,,314,False,,0.674,0.699,0,Dr. Brown,South
+P1315,71,F,Both,Semaglutide,2025-05-17,,172,False,,0.88,0.799,1,Dr. Singh,South
+P1316,77,F,Both,Dulaglutide,2025-04-18,,201,False,,0.704,0.661,0,Dr. Singh,Midwest
+P1317,25,M,Obesity,Dulaglutide,2024-12-21,,319,False,,0.487,0.496,0,Dr. Patel,West
+P1318,70,F,Type 2 Diabetes,Dulaglutide,2025-07-28,,100,False,,0.795,0.821,0,Dr. Brown,South
+P1319,77,F,Obesity,Semaglutide,2024-06-30,,493,False,,0.66,0.673,1,Dr. Lee,West
+P1320,22,M,Type 2 Diabetes,Semaglutide,2025-06-06,,152,False,,0.844,0.833,0,Dr. Lee,South
+P1321,23,F,Type 2 Diabetes,Semaglutide,2025-10-02,2025-12-25,84,True,Provider decision,0.264,0.35,0,Dr. Singh,Northeast
+P1322,64,F,Type 2 Diabetes,Semaglutide,2025-03-12,2025-10-19,221,True,Side effects,0.509,0.466,0,Dr. Allen,Midwest
+P1323,72,F,Type 2 Diabetes,Semaglutide,2024-12-25,,315,False,,0.388,0.393,0,Dr. Garcia,Midwest
+P1324,57,M,Obesity,Liraglutide,2025-08-21,2026-07-14,327,True,Side effects,0.521,0.432,1,Dr. Lee,West
+P1325,69,F,Obesity,Tirzepatide,2024-10-12,,389,False,,0.742,0.703,0,Dr. Allen,South
+P1326,33,F,Type 2 Diabetes,Semaglutide,2024-07-20,,473,False,,0.821,0.908,0,Dr. Garcia,South
+P1327,30,M,Type 2 Diabetes,Semaglutide,2025-09-02,,64,False,,0.915,0.884,1,Dr. Singh,Midwest
+P1328,47,M,Both,Semaglutide,2023-08-07,,821,False,,0.876,0.66,0,Dr. Wang,Northeast
+P1329,36,F,Type 2 Diabetes,Tirzepatide,2025-10-06,2026-02-04,121,True,Provider decision,0.287,0.181,1,Dr. Johnson,South
+P1330,34,F,Type 2 Diabetes,Tirzepatide,2025-09-21,2026-07-11,293,True,Lack of efficacy,0.557,0.523,2,Dr. Johnson,South
+P1331,80,F,Type 2 Diabetes,Liraglutide,2025-09-26,,40,False,,0.793,0.794,0,Dr. Singh,Midwest
+P1332,36,M,Obesity,Semaglutide,2024-08-14,,448,False,,0.715,0.678,0,Dr. Lee,South
+P1333,75,F,Obesity,Liraglutide,2025-04-07,,212,False,,0.572,0.515,0,Dr. Allen,Northeast
+P1334,72,F,Type 2 Diabetes,Dulaglutide,2025-10-04,,32,False,,0.738,0.774,1,Dr. Wang,Midwest
+P1335,79,M,Type 2 Diabetes,Semaglutide,2025-07-12,,116,False,,0.732,0.65,0,Dr. Patel,South
+P1336,40,M,Obesity,Liraglutide,2025-04-28,,191,False,,0.72,0.682,0,Dr. Garcia,Northeast
+P1337,26,F,Obesity,Semaglutide,2025-10-19,2026-08-19,304,True,Planned surgery,0.49,0.432,2,Dr. Singh,West
+P1338,29,M,Type 2 Diabetes,Dulaglutide,2024-09-03,2024-11-26,84,True,Access issues,0.703,0.59,0,Dr. Wang,Midwest
+P1339,18,F,Both,Semaglutide,2024-12-15,,325,False,,0.774,0.72,1,Dr. Brown,Northeast
+P1340,75,M,Type 2 Diabetes,Dulaglutide,2025-06-18,2026-03-05,260,True,Access issues,0.615,0.53,2,Dr. Wang,Midwest
+P1341,18,F,Type 2 Diabetes,Dulaglutide,2023-12-23,,683,False,,0.692,0.635,0,Dr. Lee,South
+P1342,51,F,Both,Dulaglutide,2025-07-20,,108,False,,0.771,0.754,0,Dr. Brown,Midwest
+P1343,65,M,Type 2 Diabetes,Dulaglutide,2023-07-31,,828,False,,0.814,0.781,0,Dr. Garcia,South
+P1344,18,F,Obesity,Semaglutide,2025-03-30,2026-03-15,350,True,Provider decision,0.583,0.552,1,Dr. Brown,Northeast
+P1345,33,F,Type 2 Diabetes,Semaglutide,2025-04-18,2025-12-05,231,True,Other,0.837,0.767,1,Dr. Wang,Northeast
+P1346,78,M,Type 2 Diabetes,Semaglutide,2025-09-30,2025-10-19,19,True,Access issues,0.73,0.733,1,Dr. Lee,Midwest
+P1347,81,M,Both,Semaglutide,2024-09-04,,427,False,,0.667,0.599,1,Dr. Brown,West
+P1348,80,F,Type 2 Diabetes,Tirzepatide,2025-07-17,2025-08-03,17,True,Cost,0.731,0.638,1,Dr. Allen,West
+P1349,39,M,Both,Semaglutide,2025-10-01,,35,False,,0.709,0.701,0,Dr. Lee,Northeast
+P1350,84,F,Type 2 Diabetes,Liraglutide,2025-11-03,2026-04-21,169,True,Provider decision,0.354,0.354,2,Dr. Allen,South
+P1351,43,F,Type 2 Diabetes,Tirzepatide,2025-05-25,,164,False,,0.949,0.953,2,Dr. Allen,West
+P1352,33,F,Type 2 Diabetes,Dulaglutide,2025-06-09,,149,False,,0.896,0.886,0,Dr. Brown,Midwest
+P1353,68,F,Obesity,Semaglutide,2025-02-24,,254,False,,0.849,0.886,2,Dr. Brown,West
+P1354,74,M,Type 2 Diabetes,Dulaglutide,2024-08-21,2025-10-12,417,True,Side effects,0.613,0.742,0,Dr. Patel,Northeast
+P1355,46,F,Both,Liraglutide,2025-10-20,,16,False,,0.772,0.833,1,Dr. Patel,West
+P1356,64,F,Type 2 Diabetes,Semaglutide,2025-02-16,2025-06-09,113,True,Side effects,0.781,0.722,0,Dr. Wang,South
+P1357,79,F,Both,Tirzepatide,2025-09-25,,41,False,,0.87,0.774,0,Dr. Lee,West
+P1358,33,M,Type 2 Diabetes,Dulaglutide,2024-10-11,2025-07-28,290,True,Provider decision,0.458,0.35,1,Dr. Patel,South
+P1359,65,F,Both,Semaglutide,2024-11-29,2025-03-19,110,True,Cost,0.74,0.732,1,Dr. Allen,Midwest
+P1360,56,F,Obesity,Tirzepatide,2025-06-03,2025-11-04,154,True,Side effects,0.77,0.806,1,Dr. Patel,West
+P1361,50,F,Obesity,Semaglutide,2025-03-03,,247,False,,0.676,0.687,0,Dr. Garcia,Midwest
+P1362,40,F,Obesity,Semaglutide,2025-08-22,,75,False,,0.721,0.753,0,Dr. Wang,Midwest
+P1363,27,F,Obesity,Semaglutide,2025-07-01,,127,False,,0.983,0.976,1,Dr. Lee,South
+P1364,51,M,Obesity,Semaglutide,2024-11-26,2025-12-14,383,True,Side effects,0.653,0.661,1,Dr. Lee,South
+P1365,69,M,Type 2 Diabetes,Semaglutide,2025-07-06,,122,False,,0.527,0.493,0,Dr. Johnson,West
+P1366,27,F,Type 2 Diabetes,Semaglutide,2025-08-09,,88,False,,0.513,0.497,0,Dr. Lee,Midwest
+P1367,36,M,Both,Liraglutide,2025-06-22,,136,False,,0.595,0.475,0,Dr. Wang,South
+P1368,75,M,Obesity,Tirzepatide,2024-11-18,,352,False,,0.937,0.911,1,Dr. Garcia,South
+P1369,18,M,Obesity,Liraglutide,2025-08-16,2026-07-13,331,True,Provider decision,0.79,0.812,2,Dr. Lee,Northeast
+P1370,21,F,Type 2 Diabetes,Semaglutide,2025-09-28,,38,False,,0.882,0.852,0,Dr. Johnson,Midwest
+P1371,33,F,Type 2 Diabetes,Semaglutide,2025-03-02,2025-04-26,55,True,Lack of efficacy,0.64,0.556,1,Dr. Wang,Midwest
+P1372,41,F,Type 2 Diabetes,Tirzepatide,2024-11-21,,349,False,,0.91,0.875,0,Dr. Allen,Midwest
+P1373,19,F,Obesity,Semaglutide,2025-10-15,,21,False,,0.552,0.58,0,Dr. Singh,West
+P1374,49,M,Type 2 Diabetes,Semaglutide,2025-09-12,,54,False,,0.782,0.757,1,Dr. Singh,South
+P1375,41,M,Type 2 Diabetes,Tirzepatide,2025-10-06,,30,False,,0.63,0.49,0,Dr. Allen,South
+P1376,29,M,Type 2 Diabetes,Semaglutide,2025-08-12,,85,False,,1.0,0.95,0,Dr. Patel,West
+P1377,67,F,Type 2 Diabetes,Tirzepatide,2025-07-09,2026-01-25,200,True,Access issues,0.611,0.601,1,Dr. Lee,Midwest
+P1378,52,F,Type 2 Diabetes,Tirzepatide,2025-02-02,,276,False,,0.657,0.633,0,Dr. Brown,West
+P1379,50,Other,Type 2 Diabetes,Semaglutide,2025-04-09,2025-05-05,26,True,Side effects,0.639,0.681,2,Dr. Singh,Midwest
+P1380,50,M,Obesity,Semaglutide,2025-04-25,,194,False,,0.85,0.838,0,Dr. Patel,West
+P1381,78,F,Type 2 Diabetes,Dulaglutide,2025-08-11,,86,False,,0.514,0.537,0,Dr. Singh,Northeast
+P1382,68,M,Type 2 Diabetes,Semaglutide,2024-11-02,2025-06-13,223,True,Access issues,0.538,0.424,0,Dr. Allen,West
+P1383,60,M,Type 2 Diabetes,Semaglutide,2025-07-01,,127,False,,0.883,0.93,0,Dr. Lee,Midwest
+P1384,29,F,Type 2 Diabetes,Liraglutide,2023-09-24,,773,False,,0.873,0.93,0,Dr. Lee,Midwest
+P1385,84,F,Type 2 Diabetes,Semaglutide,2025-04-18,,201,False,,0.962,0.966,0,Dr. Patel,South
+P1386,82,F,Type 2 Diabetes,Tirzepatide,2025-10-10,,26,False,,0.786,0.7,0,Dr. Allen,Midwest
+P1387,50,F,Obesity,Liraglutide,2025-03-25,2026-01-21,302,True,Access issues,0.407,0.457,1,Dr. Patel,South
+P1388,57,F,Type 2 Diabetes,Semaglutide,2025-08-19,,78,False,,0.712,0.641,0,Dr. Lee,Midwest
+P1389,60,M,Obesity,Semaglutide,2025-03-19,2025-05-23,65,True,Cost,0.372,0.494,1,Dr. Brown,South
+P1390,61,F,Both,Semaglutide,2025-10-22,2026-03-10,139,True,Lack of efficacy,0.532,0.485,0,Dr. Lee,Midwest
+P1391,46,F,Obesity,Semaglutide,2025-09-28,,38,False,,0.98,0.983,0,Dr. Wang,Northeast
+P1392,30,F,Type 2 Diabetes,Semaglutide,2024-10-14,2025-04-19,187,True,Side effects,0.538,0.461,0,Dr. Brown,Midwest
+P1393,29,F,Type 2 Diabetes,Tirzepatide,2025-09-15,,51,False,,0.52,0.519,0,Dr. Patel,South
+P1394,63,M,Type 2 Diabetes,Semaglutide,2024-11-08,2025-12-27,414,True,Other,0.629,0.586,0,Dr. Wang,Northeast
+P1395,19,F,Type 2 Diabetes,Tirzepatide,2025-09-01,,65,False,,0.724,0.702,0,Dr. Allen,Midwest
+P1396,52,F,Both,Liraglutide,2025-04-14,2026-07-05,447,True,Pregnancy/planning,0.227,0.24,0,Dr. Garcia,Midwest
+P1397,25,M,Type 2 Diabetes,Dulaglutide,2025-03-14,,236,False,,0.868,0.897,0,Dr. Singh,Northeast
+P1398,43,F,Type 2 Diabetes,Tirzepatide,2025-06-15,,143,False,,0.809,0.767,0,Dr. Wang,South
+P1399,51,F,Obesity,Semaglutide,2025-08-25,2025-09-27,33,True,Provider decision,0.549,0.52,1,Dr. Singh,West
+P1400,24,F,Obesity,Tirzepatide,2025-09-19,2026-08-30,345,True,Cost,0.456,0.446,1,Dr. Johnson,Northeast
+P1401,75,F,Type 2 Diabetes,Tirzepatide,2025-10-30,,6,False,,0.892,0.864,0,Dr. Allen,South
+P1402,46,F,Type 2 Diabetes,Semaglutide,2025-08-25,,72,False,,0.712,0.681,0,Dr. Garcia,South
+P1403,53,F,Type 2 Diabetes,Semaglutide,2025-04-08,2025-10-01,176,True,Access issues,0.707,0.79,2,Dr. Johnson,Midwest
+P1404,38,F,Type 2 Diabetes,Dulaglutide,2024-04-27,2024-10-29,185,True,Access issues,0.774,0.771,0,Dr. Johnson,South
+P1405,53,M,Type 2 Diabetes,Semaglutide,2024-09-22,2025-08-30,342,True,Access issues,0.664,0.584,1,Dr. Lee,Midwest
+P1406,27,F,Type 2 Diabetes,Semaglutide,2025-01-19,2026-03-09,414,True,Other,0.394,0.41,0,Dr. Johnson,South
+P1407,41,F,Type 2 Diabetes,Semaglutide,2024-12-30,2026-03-03,428,True,Cost,0.557,0.576,0,Dr. Allen,Northeast
+P1408,81,F,Type 2 Diabetes,Semaglutide,2025-04-01,2025-12-22,265,True,Side effects,0.86,0.883,1,Dr. Wang,South
+P1409,66,F,Type 2 Diabetes,Dulaglutide,2025-09-06,,60,False,,0.717,0.686,0,Dr. Allen,South
+P1410,53,M,Type 2 Diabetes,Dulaglutide,2024-07-18,,475,False,,0.62,0.619,1,Dr. Wang,Northeast
+P1411,41,F,Type 2 Diabetes,Dulaglutide,2025-03-28,2025-09-13,169,True,Access issues,0.648,0.644,1,Dr. Johnson,Midwest
+P1412,40,M,Obesity,Semaglutide,2025-05-25,2026-05-17,357,True,Access issues,0.586,0.592,2,Dr. Johnson,West
+P1413,79,F,Obesity,Semaglutide,2025-10-13,,23,False,,0.573,0.537,0,Dr. Brown,Midwest
+P1414,54,F,Type 2 Diabetes,Semaglutide,2025-07-10,,118,False,,1.0,0.979,0,Dr. Garcia,South
+P1415,29,F,Type 2 Diabetes,Semaglutide,2025-07-05,2025-11-05,123,True,Planned surgery,0.634,0.579,0,Dr. Wang,West
+P1416,72,Other,Type 2 Diabetes,Semaglutide,2024-10-02,,399,False,,0.61,0.504,0,Dr. Johnson,South
+P1417,30,F,Obesity,Dulaglutide,2025-05-31,,158,False,,0.83,0.729,0,Dr. Lee,South
+P1418,40,F,Obesity,Semaglutide,2025-08-02,,95,False,,0.69,0.579,0,Dr. Brown,South
+P1419,47,F,Type 2 Diabetes,Tirzepatide,2023-10-15,,752,False,,0.916,0.869,0,Dr. Singh,West
+P1420,34,M,Both,Semaglutide,2025-10-13,,23,False,,0.835,0.828,1,Dr. Brown,South
+P1421,79,F,Type 2 Diabetes,Semaglutide,2025-07-19,,109,False,,0.98,0.953,1,Dr. Garcia,South
+P1422,30,M,Type 2 Diabetes,Semaglutide,2025-10-28,,8,False,,0.505,0.541,0,Dr. Allen,Midwest
+P1423,76,F,Obesity,Liraglutide,2025-02-09,2025-10-26,259,True,Side effects,0.572,0.537,0,Dr. Garcia,West
+P1424,36,F,Both,Dulaglutide,2024-06-23,,500,False,,0.792,0.711,0,Dr. Singh,South
+P1425,66,F,Obesity,Liraglutide,2025-09-01,2026-02-18,170,True,Lack of efficacy,0.307,0.28,0,Dr. Brown,Northeast
+P1426,29,F,Obesity,Semaglutide,2024-10-11,2025-08-07,300,True,Cost,0.327,0.269,0,Dr. Wang,West
+P1427,78,F,Type 2 Diabetes,Semaglutide,2025-08-28,,69,False,,0.786,0.745,0,Dr. Allen,South
+P1428,36,F,Obesity,Tirzepatide,2024-07-10,2024-11-05,118,True,Lack of efficacy,0.47,0.386,0,Dr. Allen,Northeast
+P1429,26,M,Type 2 Diabetes,Semaglutide,2025-01-29,,280,False,,0.956,0.907,0,Dr. Wang,South
+P1430,45,F,Both,Dulaglutide,2024-12-14,2025-03-21,97,True,Pregnancy/planning,0.581,0.532,2,Dr. Patel,Midwest
+P1431,69,F,Type 2 Diabetes,Semaglutide,2025-11-02,,3,False,,0.694,0.631,0,Dr. Patel,West
+P1432,33,F,Obesity,Semaglutide,2024-01-17,2025-03-06,414,True,Access issues,0.847,0.774,2,Dr. Garcia,Midwest
+P1433,29,F,Type 2 Diabetes,Semaglutide,2025-02-19,2025-04-18,58,True,Side effects,0.491,0.452,0,Dr. Johnson,West
+P1434,42,F,Obesity,Semaglutide,2025-08-25,,72,False,,0.606,0.557,0,Dr. Patel,South
+P1435,69,F,Type 2 Diabetes,Dulaglutide,2024-11-17,,353,False,,0.868,0.941,0,Dr. Garcia,Northeast
+P1436,70,F,Obesity,Semaglutide,2025-08-31,2026-04-22,234,True,Lack of efficacy,0.426,0.42,0,Dr. Patel,West
+P1437,40,M,Type 2 Diabetes,Semaglutide,2024-09-19,2025-01-07,110,True,Cost,0.555,0.595,0,Dr. Singh,South
+P1438,33,M,Type 2 Diabetes,Semaglutide,2025-10-13,,23,False,,0.858,0.826,0,Dr. Lee,Midwest
+P1439,74,F,Type 2 Diabetes,Semaglutide,2025-03-07,2025-04-06,30,True,Side effects,0.571,0.589,1,Dr. Johnson,South
+P1440,56,F,Type 2 Diabetes,Dulaglutide,2025-06-03,,155,False,,0.957,0.855,0,Dr. Garcia,West
+P1441,70,F,Both,Dulaglutide,2025-10-16,2025-11-14,29,True,Access issues,0.527,0.538,1,Dr. Lee,Midwest
+P1442,59,F,Type 2 Diabetes,Liraglutide,2025-09-11,,55,False,,0.874,0.872,0,Dr. Lee,Northeast
+P1443,75,F,Both,Dulaglutide,2025-11-03,2026-02-01,90,True,Provider decision,0.579,0.522,0,Dr. Brown,Northeast
+P1444,56,F,Type 2 Diabetes,Semaglutide,2025-07-02,,126,False,,0.514,0.428,0,Dr. Patel,Midwest
+P1445,31,M,Type 2 Diabetes,Tirzepatide,2025-08-26,,71,False,,0.811,0.811,0,Dr. Brown,South
+P1446,22,M,Obesity,Semaglutide,2025-05-07,,182,False,,0.787,0.768,0,Dr. Wang,South
+P1447,52,F,Obesity,Semaglutide,2025-08-27,,70,False,,0.54,0.446,2,Dr. Singh,Midwest
+P1448,35,F,Type 2 Diabetes,Dulaglutide,2025-08-26,,71,False,,0.806,0.764,0,Dr. Singh,Northeast
+P1449,26,F,Type 2 Diabetes,Semaglutide,2025-02-07,,271,False,,0.943,0.974,0,Dr. Singh,Midwest
